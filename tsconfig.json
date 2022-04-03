@@ -5,7 +5,8 @@
     "rootDir": "./src",                                  
     "baseUrl": "./",                                  
     "paths": {
-      "@controllers" :[".src/controllers/*"]
+      "@utils/*" :["./src/utils/*"],
+      "@interfaces/*" :["./src/interfaces/*"]
     },                                      
     "typeRoots": ["./src/@types", "./node_modules/@types"],                                  
     "allowJs": true,                                    
