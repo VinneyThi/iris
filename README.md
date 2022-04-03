@@ -1,2 +1,2 @@
 # iris
-Send emais
+Sender Emails
