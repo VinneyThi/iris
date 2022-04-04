@@ -9,4 +9,18 @@ interface IKafkaNewOrderProcess{
     'productCode':string,
     }
 
-export { IKafkaNewOrderProcess }
+interface IMessageContent{
+    address:string,
+    name:string
+}
+
+interface IMessage{
+    to:IMessageContent,
+    from:IMessageContent,
+    subject:string,
+    body:string,
+}
+interface ISenderEmail{
+     senderEmail(message: IMessage) : Promise<void>
+}
+export { IKafkaNewOrderProcess, ISenderEmail, IMessage }
