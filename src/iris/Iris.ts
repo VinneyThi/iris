@@ -12,7 +12,6 @@ class Iris extends EventEmitter {
       body: `Hello ${data.name} your new order : ${data.orderID} is processing state.`
 
     } as IMessage
-    console.log(result)
     return result
   }
 
