@@ -1,0 +1,41 @@
+{
+  "name": "iris",
+  "version": "1.0.0",
+  "description": "send emails",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "ts-node-dev -r tsconfig-paths/register --transpile-only --respawn --ignore-watch node_modules src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinneyThi/iris.git"
+  },
+  "author": "Vinney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VinneyThi/iris/issues"
+  },
+  "homepage": "https://github.com/VinneyThi/iris#readme",
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.4",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "jest": "^27.5.1",
+    "ts-node-dev": "^1.1.8",
+    "tsc": "^2.0.4",
+    "tsconfig-paths": "^3.14.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1106.0",
+    "dotenv": "^16.0.0",
+    "kafkajs": "^1.16.0",
+    "nodemailer": "^6.7.3",
+    "typescript": "^4.6.3"
+  }
+}
